@@ -1,0 +1,74 @@
+body {
+    min-width: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-image: url('https://i.imgur.com/1U9f9Ta.mp4');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  h1 {
+    color: #fff;
+    font-size: 48px;
+    margin-top: 80px;
+  }
+  
+  .form {
+    margin: 50px auto;
+    width: 50%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+  }
+  
+  .form label, .form select {
+    display: flex inline-flex
+    margin: 10px 0;
+    color: #1a1a1a;
+    font-size: 20px;
+  }
+  
+  .form select {
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #1a1a1a;
+  }
+  
+  .form input[type=number] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #1a1a1a;
+  }
+  
+  .result {
+    margin: 50px auto;
+    width: 50%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+  }
+  
+  button {
+    background-color: #1a1a1a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #16d38e;
+  }
+  
+  #resultLabel {
+    color: #1a1a1a;
+    font-size: 24px;
+    margin: 30px auto;
+  }
+  
