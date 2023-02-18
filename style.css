@@ -11,7 +11,7 @@ h1 {
   color: #fff;
   font-size: 10vw;
   flex-wrap: wrap;
-  margin-top: 10vw;
+  margin-top: 5vw;
 }
 
 .form {
@@ -73,5 +73,5 @@ button:hover {
 #resultLabel {
   color: #1a1a1a;
   font-size: 5vw;
-  margin: 5vw 5vw;
+  margin: 5vw 10vw;
 }
